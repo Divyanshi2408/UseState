@@ -6,7 +6,7 @@ const DynamicForm = () => {
     { id: "email", label: "Email", value: "", required: true },
   ]);
 
-  // Add a new form field dynamically
+ 
   const addField = () => {
     setFields((prevFields) => [
       ...prevFields,
@@ -14,12 +14,10 @@ const DynamicForm = () => {
     ]);
   };
 
-  // Remove a specific field
   const removeField = (id) => {
     setFields((prevFields) => prevFields.filter((field) => field.id !== id));
   };
 
-  // Handle input value changes
   const handleInputChange = (id, newValue) => {
     setFields((prevFields) =>
       prevFields.map((field) =>
@@ -37,11 +35,10 @@ const DynamicForm = () => {
     );
   };
 
-  // Submit the form
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Check for required fields
     const hasEmptyRequiredFields = fields.some(
       (field) => field.required && !field.value.trim()
     );
@@ -68,7 +65,7 @@ const DynamicForm = () => {
               }
               placeholder={`Label for Field ${index + 1}`}
               style={{ marginRight: "10px", padding: "10px" }}
-              readOnly={field.required} // Prevent editing for required fields
+              readOnly={field.required} 
             />
             <input
               type="text"
