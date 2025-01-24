@@ -5,6 +5,7 @@ import ThemeToggler from './ThemeToggler/ThemeToggler.jsx'
 import NestedStateList from './NestedStateList/NestedStateList.jsx'
 import CascadingDropdowns from './CascadingDropdowns/CascadingDropdowns.jsx'
 import Spreadsheet from './Spreadsheet/Spreadsheet.jsx'
+import MultiStepForm from './MultiStepForm/MultiStepForm.jsx'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
    <NestedStateList/>
    <CascadingDropdowns/>
    <Spreadsheet/>
+   <MultiStepForm/>
   </>
   )
 }
