@@ -19,7 +19,6 @@ const CascadingDropdowns = () => {
     },
   };
 
-  // Handle country change
   const handleCountryChange = (selectedCountry) => {
     setCountry(selectedCountry);
     setStates(Object.keys(data[selectedCountry] || {}));
@@ -28,7 +27,7 @@ const CascadingDropdowns = () => {
     setCity('');
   };
 
-  // Handle state change
+ 
   const handleStateChange = (selectedState) => {
     setState(selectedState);
     setCities(data[country]?.[selectedState] || []);

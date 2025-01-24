@@ -4,6 +4,7 @@ import Counter from './Counter/Counter.jsx'
 import ThemeToggler from './ThemeToggler/ThemeToggler.jsx'
 import NestedStateList from './NestedStateList/NestedStateList.jsx'
 import CascadingDropdowns from './CascadingDropdowns/CascadingDropdowns.jsx'
+import Spreadsheet from './Spreadsheet/Spreadsheet.jsx'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
    <ThemeToggler/>
    <NestedStateList/>
    <CascadingDropdowns/>
+   <Spreadsheet/>
   </>
   )
 }
