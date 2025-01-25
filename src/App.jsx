@@ -7,6 +7,7 @@ import CascadingDropdowns from './CascadingDropdowns/CascadingDropdowns.jsx'
 import Spreadsheet from './Spreadsheet/Spreadsheet.jsx'
 import MultiStepForm from './MultiStepForm/MultiStepForm.jsx'
 import FileExplorer from './FileExplorer/FileExplorer.jsx'
+import DataTable from './DataTable/DataTable.jsx'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
    <Spreadsheet/>
    <MultiStepForm/>
    <FileExplorer/>
+   <DataTable/>
   </>
   )
 }
