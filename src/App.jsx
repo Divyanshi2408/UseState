@@ -8,6 +8,7 @@ import Spreadsheet from './Spreadsheet/Spreadsheet.jsx'
 import MultiStepForm from './MultiStepForm/MultiStepForm.jsx'
 import FileExplorer from './FileExplorer/FileExplorer.jsx'
 import DataTable from './DataTable/DataTable.jsx'
+import Carousel from './Carousel/Carousel.jsx'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
    <MultiStepForm/>
    <FileExplorer/>
    <DataTable/>
+   <Carousel/>
   </>
   )
 }
