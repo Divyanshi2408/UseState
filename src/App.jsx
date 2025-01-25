@@ -10,6 +10,7 @@ import FileExplorer from './FileExplorer/FileExplorer.jsx'
 import DataTable from './DataTable/DataTable.jsx'
 import Carousel from './Carousel/Carousel.jsx'
 import TaskManager from './TaskManager/TaskManager.jsx'
+import MultiLevelForm from './MultiLevelForm/MultiLevelForm.jsx'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
    <DataTable/>
    <Carousel/>
    <TaskManager/>
+   <MultiLevelForm/>
   </>
   )
 }
