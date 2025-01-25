@@ -9,6 +9,7 @@ import MultiStepForm from './MultiStepForm/MultiStepForm.jsx'
 import FileExplorer from './FileExplorer/FileExplorer.jsx'
 import DataTable from './DataTable/DataTable.jsx'
 import Carousel from './Carousel/Carousel.jsx'
+import TaskManager from './TaskManager/TaskManager.jsx'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
    <FileExplorer/>
    <DataTable/>
    <Carousel/>
+   <TaskManager/>
   </>
   )
 }
